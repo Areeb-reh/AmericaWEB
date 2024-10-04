@@ -1,0 +1,338 @@
+.text_scroll .main-text p,
+.text_scroll .main-text img {
+    line-height: 180px;
+}
+
+.text_scroll .main-text {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: -720px;
+}
+
+.text_scroll .main-text .main-text-light {
+    font-size: 160px;
+    font-weight: 900;
+    -webkit-text-stroke: 1px #ffffff66;
+    -webkit-text-fill-color: transparent;
+    color: #333;
+    padding: 0px 10px;
+    letter-spacing: .02em;
+    font-family: IntegralCF, sans-serif;
+}
+
+.text_scroll .main-text .main-text-dark {
+    font-size: 160px;
+    font-weight: 900;
+    padding: 0px 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    letter-spacing: .02em;
+    font-family: IntegralCF, sans-serif;
+    color: white;
+}
+
+.text_scroll .main-text .main-text-dark:hover {
+    color: #9F20ED;
+    transform: scale(1.1);
+}
+
+.text_scroll .main-text.hover .main-text-light {
+    -webkit-text-stroke: 1px #ffffff0d;
+    -webkit-text-fill-color: #ffffff0d;
+    color: #ffffff0d;
+    transition: 0.3s;
+}
+
+.text_scroll .main-text .main-branding-img {
+    width: 125px;
+    height: 125px;
+    padding: 0px 15px;
+    position: relative;
+    top: 15px;
+}
+
+.text_scroll .main-text .main-web-img {
+    width: 160px;
+    height: 130px;
+    padding: 0px 15px;
+    position: relative;
+    top: 15px;
+}
+
+.text_scroll .main-text .main-promotion-img {
+    width: 140px;
+    height: 130px;
+    padding: 0px 15px;
+    position: relative;
+    top: 15px;
+}
+
+.text_scroll .main-text p:first-child {
+    margin-left: 20px;
+}
+
+.letter {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.animate .letter {
+    animation: float 2s infinite;
+}
+
+
+            @media (max-width: 1600px) {
+               .text_scroll .main-text .main-text-light {
+                  font-size: 200px;
+                  font-weight: 900;
+               }
+
+               .text_scroll .main-text .main-text-dark {
+                  font-size: 200px;
+                  font-weight: 900;
+               }
+
+               .text_scroll .main-text .main-branding-img {
+                  width: 100px;
+                  height: 100px;
+                  padding: 0px 5px;
+                  top: 15px;
+               }
+
+               .text_scroll .main-text .main-web-img {
+                  width: 120px;
+                  height: 100px;
+                  padding: 0px 5px;
+                  top: 15px;
+               }
+
+               .text_scroll .main-text .main-promotion-img {
+                  width: 120px;
+                  height: 110px;
+                  padding: 0px 5px;
+                  top: 15px;
+               }
+            }
+
+            @media (max-width: 1420px) {
+               .text_scroll .main-text {
+                  margin-left: -620px;
+               }
+
+               .text_scroll .main-text .main-text-light {
+                  font-size: 120px;
+                  font-weight: 800;
+               }
+
+               .text_scroll .main-text .main-text-dark {
+                  font-size: 120px;
+                  font-weight: 800;
+               }
+
+               .text_scroll .main-text .main-branding-img {
+                  width: 100px;
+                  height: 100px;
+                  padding: 0px 5px;
+                  top: 15px;
+               }
+
+               .text_scroll .main-text .main-web-img {
+                  width: 120px;
+                  height: 100px;
+                  padding: 0px 5px;
+                  top: 15px;
+               }
+
+               .text_scroll .main-text .main-promotion-img {
+                  width: 120px;
+                  height: 110px;
+                  padding: 0px 5px;
+                  top: 15px;
+               }
+            }
+
+            @media (max-width: 1200px) {
+
+               .text_scroll .main-text p,
+               .text_scroll .main-text img {
+                  line-height: 140px;
+               }
+
+               .text_scroll .main-text {
+                  margin-left: -700px;
+               }
+            }
+
+            @media (max-width: 1100px) {
+
+               .text_scroll .main-text p,
+               .text_scroll .main-text img {
+                  line-height: 140px;
+               }
+
+               .text_scroll .main-text {
+                  margin-left: -780px;
+               }
+            }
+
+            @media (max-width: 1000px) {
+               .text_scroll .main-text .main-text-light {
+                  font-size: 120px;
+                  font-weight: 700;
+               }
+
+               .text_scroll .main-text .main-text-dark {
+                  font-size: 120px;
+                  font-weight: 700;
+               }
+
+               .text_scroll .main-text p,
+               .text_scroll .main-text img {
+                  line-height: 140px;
+               }
+
+               .text_scroll .main-text {
+                  margin-left: -700px;
+               }
+            }
+
+            @media (max-width: 900px) {
+               .text_scroll .main-text .main-text-light {
+                  font-size: 100px;
+                  font-weight: 700;
+               }
+
+               .text_scroll .main-text .main-text-dark {
+                  font-size: 100px;
+                  font-weight: 700;
+               }
+
+               .text_scroll .main-text p,
+               .text_scroll .main-text img {
+                  line-height: 130px;
+               }
+
+               .text_scroll .main-text {
+                  margin-left: -560px;
+               }
+            }
+
+            @media (max-width: 500px) {
+               .text_scroll .main-text .main-text-light {
+                  font-size: 80px;
+                  font-weight: 700;
+                  letter-spacing: 0px;
+               }
+
+               .text_scroll .main-text .main-text-dark {
+                  font-size: 80px;
+                  font-weight: 700;
+                  letter-spacing: 0px;
+               }
+
+               .text_scroll .main-text p,
+               .text_scroll .main-text img {
+                  line-height: 120px;
+               }
+
+               .text_scroll .main-text {
+                  margin-left: -480px;
+               }
+            }
+
+            @media (max-width: 400px) {
+               .text_scroll .main-text .main-text-light {
+                  font-size: 50px;
+                  font-weight: 800;
+                  letter-spacing: 0px;
+               }
+
+               .text_scroll .main-text .main-text-dark {
+                  font-size: 50px;
+                  font-weight: 800;
+                  letter-spacing: 0px;
+               }
+
+               .text_scroll .main-text p,
+               .text_scroll .main-text img {
+                  line-height: 105px;
+               }
+
+               .text_scroll .main-text {
+                  margin-left: -350px;
+               }
+
+               .text_scroll .main-text .main-branding-img {
+                  width: 80px;
+                  height: 80px;
+                  padding: 0px 2px;
+                  top: 0px;
+               }
+
+               .text_scroll .main-text .main-web-img {
+                  width: 90px;
+                  height: 80px;
+                  padding: 0px 2px;
+                  top: 0px;
+               }
+
+               .text_scroll .main-text .main-promotion-img {
+                  width: 80px;
+                  height: 80px;
+                  padding: 0px 2px;
+                  top: 0px;
+               }
+            }
+
+
+
+
+
+            .arrowup {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               height: 14vh; /* Adjust as necessary */
+               width: 70%;
+           }
+           
+           #animated-svg {
+               transform: rotate(120deg); /* Adjust rotation degree as necessary */
+           }
+           
+           @media (max-width: 600px) {
+               #animated-svg {
+                   width: 40px;
+                   height: 80px; /* Adjust as necessary */
+               }
+           }
+           
+           @media (min-width: 601px) and (max-width: 1200px) {
+               #animated-svg {
+                   width: 50px;
+                   height: 100px; /* Adjust as necessary */
+               }
+           }
+           
+           @media (min-width: 1201px) {
+               #animated-svg {
+                   /* width: 55px;
+                   height: 114px; */
+                   width: 80px;
+                   height: 140px;
+               }
+           }
+
+
+    
